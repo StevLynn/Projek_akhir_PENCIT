@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1E495F;
+    color: #ffffff;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: #0A4F70;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Ubah ke flex-start */
+    align-items: center;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column {
+    width: 60%;
+    background-color: #145374;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-container .upload,
+.image-container .output {
+    width: 45%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+  
+.bottom a {
+color: #4CAF50;
+text-decoration: none;
+}
+
+.bottom a:hover {
+text-decoration: underline;
+}
+
+
